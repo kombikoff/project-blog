@@ -1,0 +1,15 @@
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons__item {
+    position: relative;
+    margin-right: 30px;
+
+     @extend %iconsAnimations;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

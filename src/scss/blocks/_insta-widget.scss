@@ -1,0 +1,15 @@
+.insta-widget {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+
+    img {
+        transition: .2s all ease;
+        &:hover {
+            transform: scale(1.02);
+            opacity: .75;
+        }
+    }
+}
+

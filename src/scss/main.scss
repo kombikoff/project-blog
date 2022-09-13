@@ -1,0 +1,19 @@
+@import "base/_reset";
+@import "base/_fonts";
+@import "base/_var";
+@import "base/_base";
+@import "base/_grid";
+@import "base/_mixins";
+
+// blocks
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/social-icons";
+@import "blocks/buttons";
+@import "blocks/post";
+@import "blocks/share-icons";
+@import "blocks/pagination";
+@import "blocks/widget";
+@import "blocks/post-widget";
+@import "blocks/insta-widget";
+@import "blocks/footer";

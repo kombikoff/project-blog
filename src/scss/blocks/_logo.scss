@@ -1,0 +1,9 @@
+.logo {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 1.21;
+    color: #000;
+
+    @extend %textHover;
+}

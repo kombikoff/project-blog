@@ -1,0 +1,38 @@
+.post-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #DDE2E7;
+    margin-bottom: 30px;
+
+    &:last-child {border-bottom: unset;}
+}
+
+.post-widget__img {
+    margin-bottom: 40px;
+    
+    transition: .2s all ease;
+    &:hover {
+        opacity: .75;
+    }
+}
+
+.post-widget__title {
+    margin-bottom: 15px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+
+    @extend %textHover;
+}
+
+.post-widget__info {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25;
+    text-transform: uppercase;
+    color: #B0B0B0;
+}

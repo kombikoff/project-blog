@@ -1,0 +1,22 @@
+.widget {
+    &:first-child {padding-top: 60px;}
+    display: flex;
+    flex-direction: column;
+}
+
+.widget__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    margin-bottom: 40px;
+
+    // Border
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    min-width: 270px;
+    padding: 24px 20px;
+}
+
+
+

@@ -1,0 +1,6 @@
+mixin footerNav(titleFirst, titleSecond, link1="#", link2="#")
+    ul.footer__nav
+        li.footer__nav-item
+            a(href= link1).footer__nav-link #{titleFirst}
+        li.footer__nav-item
+            a(href= link2).footer__nav-link #{titleSecond}

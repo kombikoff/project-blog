@@ -1,0 +1,10 @@
+.share-icons > * {
+    margin-right: 30px;
+    position: relative;
+
+    @extend %iconsAnimations;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+    border-bottom: 1px solid #DDE2E7;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+
+    & > :nth-child(1) {margin-right: 45px;}
+}
+
+.header__right-search {
+    img {
+        cursor: pointer;
+        @extend %iconsAnimations;
+    }
+}
